@@ -1,0 +1,75 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(/public/Heebo-VariableFont_wght.ttf);
+}
+
+*{
+  color: #6C8098 !important;
+  color: black !important;
+  font-family: myFirstFont !important;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ebcddd;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.MuiButton-contained {
+  text-transform: capitalize !important;
+  color: white !important;
+  font-weight: 600 !important;
+}
+
+.MuiPaper-outlined{
+  /* background-color: #FFFFFF !important; */
+}
+
+.MuiTable-root{
+  /* background-color: #ED9CAD !important; */
+  color: white !important;
+  background-color: white !important;
+}
+
+.MuiDateCalendar-root {
+  background-color: #FFFFFF !important;
+}
+
+.MuiMenuItem-root{
+  background-color: #FFFFFF !important;
+}
+
+
+.MuiInputBase-input{
+  background-color: #FFFFFF !important;
+}
+
+
+.MuiList-root{
+  background-color: #FFFFFF !important;
+}
+
+.Mui-focused{
+  color: #ED9CAD !important;
+}
+
+.MuiTableCell-root{
+  /* color: white !important; */
+  color: #6C8098 !important;
+  color: black !important;
+}
+
+.MuiTableCell-head{
+  background-color: #ED9CAD !important;
+  color: white !important;
+  font-weight: 700 !important;
+}
